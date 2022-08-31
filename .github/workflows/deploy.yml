@@ -21,7 +21,7 @@ jobs:
   #         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
   deploy:
-    needs: [sonarcloud]
+    # needs: [sonarcloud]
     name: Deploy
     runs-on: ubuntu-latest
 
