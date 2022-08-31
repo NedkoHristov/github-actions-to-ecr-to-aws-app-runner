@@ -1,6 +1,6 @@
 # .github/workflows/main.yml
 name: linters
-# on: [push]
+on: [push]
 jobs:
   linters:
     name: Linter
