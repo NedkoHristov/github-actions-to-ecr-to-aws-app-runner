@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-# change_flag = 1
+# change_flag = 2
 require 'socket'
 
 app = proc do
