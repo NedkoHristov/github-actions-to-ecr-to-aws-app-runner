@@ -25,4 +25,4 @@ WORKDIR /usr/src/app
 COPY . .
 
 CMD ["ruby", "./tcp_server.rb"]
-EXPOSE 80/tcp
+EXPOSE 8080/tcp
