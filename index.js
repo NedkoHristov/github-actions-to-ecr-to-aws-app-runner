@@ -5,7 +5,7 @@ const app = new express();
 app.get("/", (req, res) =>
   res.send({
     status: "Success",
-    message: "The github to ECR then to AWS AppRunner is working",
+    message: "The GitHub to AWS ECR then to AWS AppRunner is working",
   })
 );
 
