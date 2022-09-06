@@ -1,0 +1,6 @@
+FROM amazon/aws-lambda-nodejs:12
+COPY functions.js package*.json ./
+# RUN npm install // uncomment if your functions has dependencies
+CMD [ "functions.helloLambda" ]
+
+
