@@ -4,8 +4,8 @@ const app = new express();
 
 app.get("/", (req, res) =>
   res.send({
-    status: "✅ success",
-    message: "proton is awesome, so is copilot! ❤️",
+    status: "Success",
+    message: "GitHub to AWS ECR to AWS AppRunner --> successful",
   })
 );
 
