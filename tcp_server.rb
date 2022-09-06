@@ -6,7 +6,7 @@ app = proc do
   ['200', { 'Content-Type' => 'text/html' }, ["Hello world.\n"]]
 end
 
-server = TCPServer.new 80
+server = TCPServer.new 8080
 
 port = server.addr[1]
 
