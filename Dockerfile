@@ -24,5 +24,5 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-CMD ["ruby", "./tcp_server.rb"]
 EXPOSE 8080
+CMD ["ruby", "./tcp_server.rb"]
