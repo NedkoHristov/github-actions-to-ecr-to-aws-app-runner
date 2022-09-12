@@ -6,7 +6,6 @@ on:
     branches: ["**"]
 
 jobs:
-  ## Disabled to speed-up my actions, will be enabled once merged to master
   sonarcloud:
     name: SonarCloud
     runs-on: ubuntu-latest
@@ -53,4 +52,3 @@ jobs:
               echo "Pushing image to AWS Elastic Container Registry"
               docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
               echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
-# Change Flag - 1
