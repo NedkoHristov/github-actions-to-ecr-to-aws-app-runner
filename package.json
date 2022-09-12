@@ -1,0 +1,13 @@
+{
+  "name": "aws-proton-node-example",
+  "version": "1.0.0",
+  "description": "A sample express server for demo of AWS proton",
+  "main": "index.js",
+  "repository": "https://github.com/mubbashir10/aws-proton-nodejs-sample.git",
+  "author": "mubbashir",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
